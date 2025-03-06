@@ -1,13 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-import Product from './components/Product'
-
+import "./App.css";
+import Product from "./components/Product";
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <>
-      <Product/>
-    </>   
-  )
+      <Product />
+    </>
+  );
 }
 
-export default App
+export default App;
